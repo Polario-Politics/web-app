@@ -19,6 +19,7 @@
     "cypress": "^6.3.0",
     "eslint": "^7.18.0",
     "prettier": "^2.2.1",
+    "polario-common": "file:../common",
     "typescript": "^4.1.5"
   },
   "scripts": {

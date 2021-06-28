@@ -1,0 +1,1 @@
+cp common/* client/node_modules/polario-common && cp common/* api/node_modules/polario-common
