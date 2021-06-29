@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
 
-<h4 align="center">A project by <a href="https://linkedin.com/in/amit-m-sawhney" target="_blank">Amit Sawhney</a></h4>
+<h4 align="center">A project by <a href="https://linkedin.com/in/amit-m-sawhney" target="_blank">Amit Sawhney</a> and <a href="https://nickrking.com" target="_blank">Nick King</a></h4>
 
 <p align="center">
   <a href="#background">Background</a> •
@@ -39,6 +39,7 @@ This application is built with React, Express, MongoDB, and tested with Cypress 
 <table align="center">
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/amit-m-sawhney/"><img src="./images/amit-sawhney.jpg" width="75px;" alt="Amit Sawhney"/><br /><b>Amit Sawhney</b></a><br /><sub>Project Creator</sub></td>
+    <td align="center"><a href="https://nickrking.com"><img src="./images/nick-king.jpg" width="75px;" alt="Nick King"/><br /><b>Nick King</b></a><br /><sub>Project Creator</sub></td>
     </tr>
 </table>
 
