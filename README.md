@@ -42,7 +42,7 @@ This application is built with React, Express, MongoDB, and tested with Cypress 
 
 <table align="center">
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/amit-m-sawhney/"><img src="https://media-exp1.licdn.com/dms/image/C5603AQGjSoe8PD2D7Q/profile-displayphoto-shrink_400_400/0/1567143267652?e=1618444800&v=beta&t=9BpxkgdilrD2tBI2y3UrV_Q_tmZPhvNosyv9LkeArVU" width="75px;" alt="Amit Sawhney"/><br /><b>Amit Sawhney</b></a><br /><sub>Project Creator</sub></td>
+    <td align="center"><a href="https://www.linkedin.com/in/amit-m-sawhney/"><img src="./images/amit-sawhney.jpg" width="75px;" alt="Amit Sawhney"/><br /><b>Amit Sawhney</b></a><br /><sub>Project Creator</sub></td>
     </tr>
 </table>
 
