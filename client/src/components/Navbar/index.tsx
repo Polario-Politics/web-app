@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { Container, Header, Image } from 'semantic-ui-react';
+import { Header, Image } from 'semantic-ui-react';
 
 import './styles.scss';
 
