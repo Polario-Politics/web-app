@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 import Navbar from './components/Navbar';
 import 'semantic-ui-css/semantic.min.css';
 import './styles/styles.scss';
@@ -9,7 +9,7 @@ import './styles/styles.scss';
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-    <Home />
+    <Dashboard />
   </React.StrictMode>,
   document.getElementById('root'),
 );
