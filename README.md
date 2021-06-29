@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://uiuc.hack4impact.org"><img src="https://raw.githubusercontent.com/hack4impact-uiuc/uiuc.hack4impact.org/master/public/images/colored-logo.svg" alt="hack4impact logo" width="150"></a>
+  <a href="https://uiuc.hack4impact.org"><img src="./images/polario.png" alt="polario logo" width="150"></a>
   <br/>
   Polario
   </br>
@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square">
 </p>
 
-<h4 align="center">A project by <a href="https://uiuc.hack4impact.org/" target="_blank">Hack4Impact UIUC</a> in collaboration with <a href="https://southsideweekly.com" target="_blank">South Side Weekly</a></h4>
+<h4 align="center">A project by <a href="https://linkedin.com/in/amit-m-sawhney" target="_blank">Amit Sawhney</a></h4>
 
 <p align="center">
   <a href="#background">Background</a> •
@@ -22,15 +22,11 @@
 
 ## Background
 
-South Side Weekly (SSW) is a nonprofit newspaper dedicated to supporting cultural and civic engagement on the South Side of Chicago, as well as developing emerging journalists, writers, and artists. The Weekly covers a range of topics, including politics, the arts, public interest issues, as well as poetry, fiction, and local artwork.
-
-The majority of The Weekly's staff are volunteers, with their main contributor base coming from their readers themselves. SSW is is currently in need of a volunteer hub that can streamline the onboarding process and help volunteers and staff keep track of pitches, assignments, and contributions.
-
-[Full PRD](https://docs.google.com/document/d/1p9lpH-tn6EgFzTyAAH_j1hcLqDznzfJ9vQZjzb0koqY/edit?usp=sharing)
+Polario is an application with an integrated chrome extension that is dedicated to counteracting political bias and disinformation that is catalyzed by the internet. In an era where confirming the validity of information on the internet can be time consuming and difficult, Polario aims to provide users with quick reports to determine if the information a user is viewing could contain bias. 
 
 ## Usage
 
-The latest version of this application can be found at [south-side-weekly.vercel.app](https://south-side-weekly.vercel.app).
+The latest version of this application can be found at TBD!.
 
 To install and set up locally, follow the instructions in the [`/client`](https://github.com/hack4impact-uiuc/mern_template/tree/main/client) and [`/api`](https://github.com/hack4impact-uiuc/mern_template/tree/main/api) directories.
 
