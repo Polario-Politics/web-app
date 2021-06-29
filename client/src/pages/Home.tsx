@@ -2,8 +2,6 @@ import React, { ReactElement, useEffect, useState } from 'react';
 
 import { getSampleResponse, isError } from '../utils/apiWrapper';
 
-import '../css/Home.css';
-
 function Home(): ReactElement {
   const [text, setText] = useState('You did not run local API!');
 
