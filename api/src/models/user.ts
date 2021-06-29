@@ -1,5 +1,5 @@
 import mongoose, { Document } from 'mongoose';
-import { User } from 'polario-common'
+import { User } from 'polario-common';
 
 interface UserSchema extends Document<any>, User {}
 
