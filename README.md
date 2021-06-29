@@ -17,7 +17,8 @@
   <a href="#usage">Usage</a> •
   <a href="#technologies">Technologies</a> •
   <a href="#team">Team</a> •
-  <a href="#license">License</a>
+  <a href="#license">License</a> •
+  <a href="#policies">Policies</a>
 </p>
 
 ## Background
@@ -46,3 +47,7 @@ This application is built with React, Express, MongoDB, and tested with Cypress 
 ## License
 
 [MIT](https://github.com/hack4impact-uiuc/ymca/blob/master/LICENSE) licensed. Copyright © 2020 [Hack4Impact UIUC](https://github.com/hack4impact-uiuc).
+
+## Policies
+
+[Polario Privacy Police](https://www.privacypolicies.com/live/c3c2cf5d-c1e6-41c6-9f45-1ebf3a24734f)
