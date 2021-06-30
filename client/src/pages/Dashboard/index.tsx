@@ -1,6 +1,6 @@
 import React, { ReactElement, useState, useEffect } from 'react';
 
-import { isError, getSampleResponse } from '../../utils/apiWrapper';
+import { isError, getUsers } from '../../api';
 
 import './styles.scss';
 
@@ -9,11 +9,14 @@ const Dashboard = (): ReactElement => {
 
   useEffect(() => {
     const populateText = async (): Promise<void> => {
-      const resp = await getSampleResponse();
-      console.log(resp);
+      const res = await getUsers();
 
-      if (!isError(resp)) {
-        setText(resp.data.message);
+      console.log(res);
+
+      if (!isError(res)) {
+        setText(res.data.message);
+      } else {
+        setText(res.type);
       }
     };
 
