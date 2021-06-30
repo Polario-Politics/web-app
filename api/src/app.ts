@@ -9,7 +9,9 @@ import { errorHandler } from './middleware';
 const app = express();
 
 app.use(helmet());
-app.use(cors());
+if (process.env.NODE_ENV !== 'production') {
+  app.use(cors({ origin: /localhost:\d{4}/, credentials: true }));
+}
 
 app.use(logger('dev'));
 
