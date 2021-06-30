@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
-import { Card, Image, Icon, Button } from 'semantic-ui-react';
-import Logo from '../../assets/polario.png';
+import { Card, Image, Icon } from 'semantic-ui-react';
 
+import Logo from '../../assets/polario.png';
 import './styles.scss';
 
 const Login = (): ReactElement => (
