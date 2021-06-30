@@ -22,7 +22,11 @@ const Error404 = (res: Response, message = 'Not found'): Response =>
  * @param result the response's result/data
  * @returns the 200 express response
  */
-const HTTP_OK = (res: Response, message: string, result: Result): Response =>
+const HTTP_OK = (
+  res: Response,
+  message: string,
+  result: Result = [],
+): Response =>
   res.status(200).json({ success: true, message: message, result: result });
 
 export { Error404, HTTP_OK };

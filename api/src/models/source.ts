@@ -1,7 +1,7 @@
 import mongoose, { Document } from 'mongoose';
 import { Source } from 'polario-common';
 
-type SourceSchema = Source & Document<any>;
+export type SourceSchema = Source & Document<any>;
 
 const Source = new mongoose.Schema({
   name: { type: String },
