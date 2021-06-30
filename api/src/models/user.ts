@@ -1,7 +1,7 @@
 import mongoose, { Document } from 'mongoose';
 import { User } from 'polario-common';
 
-type UserSchema = User & Document<any>
+type UserSchema = User & Document<any>;
 
 const User = new mongoose.Schema({
   name: { type: String },

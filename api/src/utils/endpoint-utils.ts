@@ -1,8 +1,8 @@
 import { Response } from 'express';
-import { User } from 'polario-common';
+import { User, Source } from 'polario-common';
 
 // All possible result types
-type Result = User | User[];
+type Result = User | User[] | Source | Source[];
 
 /**
  * Contructs an Error 404 response
