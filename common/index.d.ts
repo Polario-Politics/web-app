@@ -2,18 +2,26 @@
  * Interface for User
  */
 export interface User {
-    name: string;
+  oauthId: string;
+  firstName: string;
+  lastName: string;
+  email: string;
+  picture: string;
 }
 
 /**
- * Interface for website rating
+ * Interface for Website Source
  */
-export interface Rating {
+export interface Source {
     name: string;
     displayName: string;
     url: string;
     bias: string;
     accuracy: string;
-    verifiedDate: string;
+    mbfcUrl: string;
+    verifiedDate: Date;
 }
 
+export interface Rating {
+    name: string,
+}
