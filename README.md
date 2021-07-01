@@ -50,4 +50,4 @@ This application is built with React, Express, MongoDB, and tested with Cypress 
 
 ## Policies
 
-[Polario Privacy Police](https://www.privacypolicies.com/live/c3c2cf5d-c1e6-41c6-9f45-1ebf3a24734f)
+[Polario Privacy Policy](https://www.privacypolicies.com/live/c3c2cf5d-c1e6-41c6-9f45-1ebf3a24734f)
