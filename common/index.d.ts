@@ -21,7 +21,3 @@ export interface Source {
     mbfcUrl: string;
     verifiedDate: Date;
 }
-
-export interface Rating {
-    name: string,
-}
