@@ -6,7 +6,7 @@ import './styles.scss';
 const Navbar = (): ReactElement => (
   <div className="navbar">
     {console.log('here')}
-    <Header className="title" content="POLARIO" as="h1" />
+    <Header className="title" content="POLARIO" as="h1"/>
     <Image
       alt="User Name"
       size="mini"

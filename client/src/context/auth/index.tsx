@@ -26,11 +26,8 @@ const AuthProvider: FC = ({ children }): ReactElement => {
 
     loadCurrentUser();
   }, []);
-
   return (
-    <AuthContext.Provider value={{ ...auth }}>
-      {children}
-    </AuthContext.Provider>
+    <AuthContext.Provider value={{ ...auth }}>{children}</AuthContext.Provider>
   );
 };
 
