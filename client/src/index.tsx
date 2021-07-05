@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import AuthProvider from './context/auth';
 import Dashboard from './pages/Dashboard';
 import Login from './pages/Login';
+import About from './pages/About';
 import ProtectedRoute from './components/ProtectedRoute';
 import 'semantic-ui-css/semantic.min.css';
 import './styles/styles.scss';
@@ -18,6 +19,7 @@ ReactDOM.render(
       <Router>
         <Switch>
           <ProtectedRoute exact path="/" component={Dashboard} />
+          <Route path = "/about" component={About} />
           <Route exact path="/login" component={Login} />
         </Switch>
       </Router>

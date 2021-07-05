@@ -1,0 +1,24 @@
+.about-main {
+    margin: auto;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+    .about-main > div {
+        margin: auto;
+        width: 50vh;
+
+    }
+    
+    .text {
+        margin: auto;
+        width: 45vh; 
+    }
+
+    .image {
+        margin: auto;
+        width: 45vh; 
+    }
+}
