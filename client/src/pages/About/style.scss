@@ -1,24 +1,54 @@
 .about-main {
     margin: auto;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    width: 100vw !important;
 
     .about-main > div {
         margin: auto;
-        width: 50vh;
+        width: 50vw;
 
+    }
+
+    .text {
+        padding-left: 10%;
     }
     
-    .text {
+    .text, .image {
         margin: auto;
-        width: 45vh; 
+        width: 50vw; 
     }
 
-    .image {
+
+    .image > * {
         margin: auto;
-        width: 45vh; 
+        width: fit-content;
+    }
+}
+
+.about-below {
+    width: 100vh;
+    margin: auto;
+    padding-bottom: 5vh;
+
+    h1, p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-main {
+        flex-direction: column;
+    }
+
+    .text {
+        padding-left: 0;
+    }
+
+    .text, .image {
+        width: 100vw;
     }
 }
